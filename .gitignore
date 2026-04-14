@@ -1,0 +1,39 @@
+# .gitignore
+
+# Test Execution Artifacts
+test-execution/screenshots/*
+!test-execution/screenshots/.gitkeep
+test-execution/reports/*.pdf
+*.log
+
+# Test Data (don't commit sensitive data)
+test-cases/*.csv
+test-data/sensitive/
+
+# Automation - Node modules
+automation/e2e/node_modules/
+automation/e2e/test-results/
+automation/e2e/playwright-report/
+automation/e2e/.env
+
+# Automation - API
+automation/api/newman/*.html
+automation/api/newman/*.json
+
+# Automation - Performance
+automation/performance/k6/results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+~$*
