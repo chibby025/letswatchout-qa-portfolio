@@ -1,34 +1,3 @@
-# LetsWatchOut - QA Portfolio
-
-![QA Testing](https://img.shields.io/badge/Testing-Manual%20%7C%20Automated-brightgreen)
-![Playwright](https://img.shields.io/badge/E2E-Playwright-45ba4b)
-![Postman](https://img.shields.io/badge/API-Postman-FF6C37)
-![K6](https://img.shields.io/badge/Performance-K6-7D64FF)
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-
-**Comprehensive QA testing portfolio for LetsWatchOut social streaming platform**
-
----
-
-## 📋 Project Overview
-
-**Application:** LetsWatchOut  
-**Type:** Social streaming platform with 3D cinema, lecture halls, and video watch  
-**Tech Stack:** React + Go + PostgreSQL + WebSocket + LiveKit  
-**QA Timeline:** 10 weeks (April 14 - June 23, 2026)  
-**Testing Scope:** 105+ manual test cases, 25+ automated tests, performance benchmarks
-
-### Key Features Tested
-- 🔐 Google OAuth 2.0 authentication
-- 🎬 Real-time video watch sessions (3 types: 2D, 3D Cinema, Lecture Hall)
-- 📤 Chunked media uploads with network-aware compression
-- 💳 Payment processing (Paystack integration)
-- 🎁 Live gifting system with WebSocket notifications
-- 🎨 LiveShare graphics overlays
-- 💬 Real-time chat and social features
-
----
-
 ## 🎯 Portfolio Highlights
 
 ### What This Portfolio Demonstrates
@@ -284,3 +253,41 @@ This QA portfolio is open source for educational and demonstration purposes.
 
 **Last Updated:** April 14, 2026  
 **Status:** 🟡 In Progress (Week 3 - Test Planning Phase)
+
+# Add this section after "🎯 Portfolio Highlights"
+
+## 🔴 LIVE Test Execution
+
+**📊 Real-Time Test Tracking:** [View Live Google Sheet →](https://docs.google.com/spreadsheets/d/1UDOUsL0Bw4InIDWBqyp0bXTFBXhOsYKW1XW6iA_1004/edit?usp=sharing)
+
+Watch test execution progress in real-time as cases are executed April 16-20, 2026.
+- Updated live during testing sessions
+- Tracks Pass/Fail status, execution dates, actual results
+- 105 test cases across 9 feature areas
+
+---
+
+# Update the Bug Reports section:
+
+## 🐛 Bug Documentation
+
+**📁 [View All Bug Reports →](./bugs/)**
+
+**Summary:** 25 production bugs identified and fixed over 8 months
+
+| Severity | Count | Examples |
+|----------|-------|----------|
+| **Critical** | 4 | Age restriction bypass, Payment validation failure, Host detection, Logout loop |
+| **High** | 12 | Media sync issues, Session management, Real-time features |
+| **Medium** | 9 | UX improvements, Performance optimization |
+| **Total** | 25 | 100% fix rate, Zero regressions |
+
+**Highlights:**
+- Grey box testing methodology (UI + API + Database + WebSocket)
+- Root cause analysis with code examples
+- Multi-user verification scenarios
+- Interview talking points for each critical bug
+
+**[📄 Full Bug Summary →](./bugs/BUG_SUMMARY.md)**
+
+
