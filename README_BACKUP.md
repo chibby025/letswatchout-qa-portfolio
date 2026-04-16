@@ -1,3 +1,34 @@
+# LetsWatchOut - QA Portfolio
+
+![QA Testing](https://img.shields.io/badge/Testing-Manual%20%7C%20Automated-brightgreen)
+![Playwright](https://img.shields.io/badge/E2E-Playwright-45ba4b)
+![Postman](https://img.shields.io/badge/API-Postman-FF6C37)
+![K6](https://img.shields.io/badge/Performance-K6-7D64FF)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+
+**Comprehensive QA testing portfolio for LetsWatchOut social streaming platform**
+
+---
+
+## 📋 Project Overview
+
+**Application:** LetsWatchOut  
+**Type:** Social streaming platform with 3D cinema, lecture halls, and video watch  
+**Tech Stack:** React + Go + PostgreSQL + WebSocket + LiveKit  
+**QA Timeline:** 10 weeks (April 14 - June 23, 2026)  
+**Testing Scope:** 105+ manual test cases, 25+ automated tests, performance benchmarks
+
+### Key Features Tested
+- 🔐 Google OAuth 2.0 authentication
+- 🎬 Real-time video watch sessions (3 types: 2D, 3D Cinema, Lecture Hall)
+- 📤 Chunked media uploads with network-aware compression
+- 💳 Payment processing (Paystack integration)
+- 🎁 Live gifting system with WebSocket notifications
+- 🎨 LiveShare graphics overlays
+- 💬 Real-time chat and social features
+
+---
+
 ## 🎯 Portfolio Highlights
 
 ### What This Portfolio Demonstrates
@@ -67,25 +98,18 @@ letswatchout-qa-portfolio/
 ### Phase 1: Test Planning (Week 3) ✅
 - [x] Test strategy document
 - [x] Environment setup
-- [x] Risk assessment
-- [x] Test case template
+- [ ] Risk assessment
+- [ ] Test case template
 
-### Phase 2: Test Case Development & QA Finalization (Week 4-5) ✅
-- [x] Critical launch regression suite executed (35 test cases)
-- [x] Test evidence captured in Google Sheet
-- [x] Pass/fail status updated for all critical cases
-- [x] **Result: 35/35 passed (100%)**
-
-### Full Suite Breakdown (Master Repository)
-- [x] Critical path subset executed for launch readiness (35)
-- [ ] Authentication full suite (15)
-- [ ] Session management full suite (20)
-- [ ] Media upload full suite (12)
-- [ ] Payment full suite (10)
-- [ ] Real-time features full suite (15)
-- [ ] Gift system full suite (10)
-- [ ] Watch experience full suite (18)
-- [ ] Social features full suite (5)
+### Phase 2: Test Case Development (Week 4-5)
+- [ ] Authentication test cases (15)
+- [ ] Session management test cases (20)
+- [ ] Media upload test cases (12)
+- [ ] Payment test cases (10)
+- [ ] Real-time features test cases (15)
+- [ ] Gift system test cases (10)
+- [ ] Watch experience test cases (18)
+- [ ] Social features test cases (5)
 
 ### Phase 3: Test Automation (Week 6-7)
 - [ ] Playwright setup
@@ -108,28 +132,23 @@ letswatchout-qa-portfolio/
 
 ## 📊 Test Coverage Matrix
 
-| Scope | Planned | Executed | Passed | Failed | Pass Rate | Status |
-|-------|---------|----------|--------|--------|-----------|--------|
-| Critical Launch Regression Suite | 35 | 35 | 35 | 0 | 100% | ✅ Complete |
-| Full Master Suite | 105 | 35 | 35 | 0 | 100% (executed set) | 🟡 In Progress |
-| **Current QA Milestone** | **35** | **35** | **35** | **0** | **100%** | ✅ **Passed** |
-
----
-
-## 🔴 LIVE Test Execution
-
-**📊 Real-Time Test Tracking:** [View Live Google Sheet →](https://docs.google.com/spreadsheets/d/1UDOUsL0Bw4InIDWBqyp0bXTFBXhOsYKW1XW6iA_1004/edit?usp=sharing)
-
-Execution window: April 16-20, 2026
-- Critical suite fully executed
-- Pass/fail evidence recorded
-- Actual results and execution dates tracked
+| Feature Area | Test Cases | Automated | Pass Rate | Status |
+|--------------|-----------|-----------|-----------|--------|
+| Authentication | 15 | 8 | TBD | 🟡 In Progress |
+| Session Management | 20 | 10 | TBD | ⬜ Not Started |
+| Media Upload | 12 | 5 | TBD | ⬜ Not Started |
+| Payment System | 10 | 3 | TBD | ⬜ Not Started |
+| Real-time Features | 15 | 7 | TBD | ⬜ Not Started |
+| Gift System | 10 | 4 | TBD | ⬜ Not Started |
+| Watch Experience | 18 | 6 | TBD | ⬜ Not Started |
+| Social Features | 5 | 2 | TBD | ⬜ Not Started |
+| **Total** | **105** | **45** | **TBD** | 🟡 **30% Complete** |
 
 ---
 
 ## 🐛 Defect Summary
 
-**Status:** QA Finalization Cycle Complete (35 critical tests)
+**Status:** In Progress (Testing not yet started)
 
 | Severity | Found | Fixed | Open | Reopen Rate |
 |----------|-------|-------|------|-------------|
@@ -139,22 +158,7 @@ Execution window: April 16-20, 2026
 | Low | 0 | 0 | 0 | 0% |
 | **Total** | **0** | **0** | **0** | **0%** |
 
-*For historical production defects (25 bugs over 8 months), see bug documentation below.*
-
----
-
-## 🐛 Bug Documentation
-
-**📁 [View All Bug Reports →](./bug-reports/)**
-
-**Historical Summary:** 25 production bugs identified and fixed
-
-| Severity | Count |
-|----------|-------|
-| Critical | 4 |
-| High | 12 |
-| Medium | 9 |
-| **Total** | **25** |
+*Updated weekly as testing progresses*
 
 ---
 
@@ -222,7 +226,7 @@ Execution window: April 16-20, 2026
 - Email: oauth_test@gmail.com
 - Browser: Chrome 120.0
 
-**Status:** ✅ Executed (Pass)
+**Status:** ⬜ Not Executed
 
 ---
 
@@ -278,7 +282,5 @@ This QA portfolio is open source for educational and demonstration purposes.
 
 ---
 
-**Last Updated:** April 16, 2026  
-**Status:** ✅ QA Finalization Complete — 35/35 Critical Test Cases Passed
-
-
+**Last Updated:** April 14, 2026  
+**Status:** 🟡 In Progress (Week 3 - Test Planning Phase)
